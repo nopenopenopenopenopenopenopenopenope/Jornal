@@ -62,14 +62,14 @@
   "sports":{
     "hero": {
       "title": "Esportes no Nordeste e no Mundo",
-      "desc":  "Fique por dentro das últimas notícias esportivas, dos grandes eventos internacionais aos talentos locais que representam o orgulho do Agreste.",
+      "desc":  "Fique por dentro das últimas notícias esportivas, dos grandes eventos internacionais aos talentos locais que representam o orgulho do Agreste."
     },
     "atletas": [
       { "nome": "Lorem ipsum", "fotoUrl": null },
       { "nome": "Lorem ipsum", "fotoUrl": null },
       { "nome": "Lorem ipsum", "fotoUrl": null },
       { "nome": "Lorem ipsum", "fotoUrl": null },
-      { "nome": "Lorem ipsum", "fotoUrl": null },
+      { "nome": "Lorem ipsum", "fotoUrl": null }
     ]
   }
 }
