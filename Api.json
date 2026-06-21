@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "O Trocadilho Humano",
+    "excerpt": "Membro do grupo passa 90% do tempo rimando o nome dos colegas e apenas 10% tentando lembrar qual era o tema real do projeto.",
+    "author": "Jeremy",
+    "location": "Recife - PE",
+    "date": "2026-06-19",
+    "dateShort": "Jun 19, 2026",
+    "imageUrl": null,
+    "caption": "Flagrante do integrante concentrado na criação de sua próxima rima infame durante a reunião.",
+    "recente": true,
+    "relatedToSports": false,
+    "relatedToEconomia": true,
+    "body": "A tensão aumentava na sala de reuniões enquanto o prazo para entrega do projeto se aproximava. O grupo estava à beira de um colapso, mas de repente, um dos membros resolveu rimar o nome de todos os colegas e o projeto foi salvo."
+  },
+  {
+    "id": 2,
+    "title": "Trocadilho Sem Fim",
+    "excerpt": "Membro do grupo passa 90% do tempo rimando o nome dos colegas e apenas 10% tentando lembrar qual era o tema real do projeto.",
+    "author": "João",
+    "location": "São Paulo - SP",
+    "date": "2026-06-15",
+    "dateShort": "Jun 15, 2026",
+    "imageUrl": "https://example.com/imagem.jpg",
+    "caption": "Flagrante do integrante concentrado na criação de sua próxima rima infame durante a reunião.",
+    "recente": false,
+    "relatedToSports": true,
+    "relatedToEconomia": false,
+    "body": "O grupo estava em meio a uma reunião de desenvolvimento de projetos quando um dos membros decidiu que era hora de trocadilhos. E assim, uma das melhorias mais criativas do projeto foi criada."
+  },
+  {
+    "id": 3,
+    "title": "O Próximo Trocadilho",
+    "excerpt": "Membro do grupo passa 90% do tempo rimando o nome dos colegas e apenas 10% tentando lembrar qual era o tema real do projeto.",
+    "author": "Maria",
+    "location": "Rio de Janeiro - RJ",
+    "date": "2026-06-20",
+    "dateShort": "Jun 20, 2026",
+    "imageUrl": "https://example.com/imagem2.jpg",
+    "caption": "Flagrante do integrante concentrado na criação de sua próxima rima infame durante a reunião.",
+    "recente": true,
+    "relatedToSports": false,
+    "relatedToEconomia": true,
+    "body": "O grupo estava em meio a uma reunião de desenvolvimento de projetos quando um dos membros decidiu que era hora de trocadilhos. E assim, uma das melhorias mais criativas do projeto foi criada."
+  }
+]
