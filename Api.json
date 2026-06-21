@@ -71,5 +71,52 @@
       { "nome": "Lorem ipsum", "fotoUrl": null },
       { "nome": "Lorem ipsum", "fotoUrl": null }
     ]
+  },
+  "data":{
+  "PE": {
+    "descricao": "Pernambuco combina litoral deslumbrante, sertão histórico e uma das culturas mais vibrantes do Brasil.",
+    "pontos": ["Marco Zero", "Porto de Galinhas", "Fernando de Noronha", "Caruaru", "Olinda"],
+    "eventos": ["Carnaval do Recife", "Festa Junina de Caruaru", "Rock in Rio Recife", "Encontro de Culturas"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos saindo de São Paulo para Recife custam em média R$ 600 a R$ 1.200 na alta temporada."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "Hotéis em Recife variam de R$ 150 (pousadas) a R$ 600 por noite (hotéis 4 estrelas)."
+      }
+    ]
+  },
+  "BA": {
+    "descricao": "A Bahia encanta com praias paradisíacas, o misticismo do Pelourinho e a Chapada Diamantina.",
+    "pontos": ["Pelourinho", "Chapada Diamantina", "Praia do Forte", "Morro de São Paulo", "Lençóis"],
+    "eventos": ["Carnaval de Salvador", "Festa de Iemanjá", "Festival da Primavera", "São João de Feira"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos para Salvador saindo do Rio custam de R$ 400 a R$ 900."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "No Pelourinho, pousadas históricas custam R$ 180 a R$ 400."
+      }
+    ]
+  },
+  "CE": {
+    "descricao": "O Ceará é famoso por suas dunas, lagoas de água doce e o sol quase o ano inteiro.",
+    "pontos": ["Jericoacoara", "Canoa Quebrada", "Morro Branco", "Guaramiranga", "Centro de Fortaleza"],
+    "eventos": ["Fortal", "Ceará Music", "Festival de Velas", "Regata de Jangadas"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos para Fortaleza saindo de Brasília custam em média R$ 500 a R$ 950."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "Pousadas em Jericoacoara variam de R$ 200 a R$ 700."
+      }
+    ]
   }
+}
 }
