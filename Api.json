@@ -193,5 +193,63 @@
       }
     ]
   }
+},
+  "culture":{
+  "PE": {
+    "descricao": "Pernambuco é um dos estados mais ricos culturalmente do Brasil, com manifestações únicas que vão do frevo ao maracatu.",
+    "festas": ["Frevo no carnaval", "Maracatu Rural", "Caboclinho", "Cavalo-Marinho"],
+    "culinaria": ["Bolo de rolo", "Carne de sol", "Sarapatel", "Baião de dois", "Mungunzá"],
+    "lendas": ["Caipora", "Mula sem cabeça", "Lobisomem do sertão", "Boto cor-de-rosa"],
+    "arte": ["Literatura de cordel", "Bonecos de Olinda", "Cerâmica de Alto do Moura"],
+    "pontos": ["Sítio Histórico de Olinda", "Caruaru — Capital do Forró", "Museu do Homem do Nordeste"]
+  },
+  "BA": {
+    "descricao": "A Bahia é o maior símbolo da cultura afro-brasileira, com tradições religiosas, musicais e artísticas.",
+    "festas": ["Candomblé", "Bumba meu boi baiano", "Samba de roda", "Chegança"],
+    "culinaria": ["Acarajé", "Vatapá", "Moqueca baiana", "Abará", "Cocada"],
+    "lendas": ["Iemanjá", "Ogum", "Curupira", "Iara"],
+    "arte": ["Capoeira Angola", "Samba de roda do Recôncavo", "Artesanato de palha"],
+    "pontos": ["Pelourinho", "Museu Afro-Brasileiro", "Casa de Jorge Amado"]
+  },
+  "CE": {
+    "descricao": "O Ceará tem identidade cultural forte, marcada pelo forró, cordel e resistência do povo sertanejo.",
+    "festas": ["Forró universitário", "Reisado", "Bumba meu boi cearense", "Quadrilhas juninas"],
+    "culinaria": ["Baião de dois", "Carne de sol com pirão", "Paçoca de pilão", "Tapioca", "Canjica"],
+    "lendas": ["Lampião e Maria Bonita", "Padre Cícero", "Cobra encantada do Cariri", "Caipora"],
+    "arte": ["Cordel cearense", "Renda de bilro", "Xilogravura"],
+    "pontos": ["Casa de José de Alencar", "Museu do Ceará", "Memorial da Cultura Cearense"]
+  },
+  "AL": {
+    "descricao": "Alagoas é conhecido por suas praias de areia branca, rios e cultura local vibrante.",
+    "festas": ["Festa de São João", "Festa de Nossa Senhora do Rosário", "Aniversário de Maceió"],
+    "culinaria": ["Caldo de peixe", "Cuscuz de tapioca", "Peixe assado", "Beiju"],
+    "lendas": ["Boi de Mamão", "Lenda do Saco de Mamanguape"],
+    "arte": ["Artesanato em renda", "Cerâmica de Penedo", "Arte na fibra de bananeira"],
+    "pontos": ["Praia do Gunga", "Centro Histórico de Penedo", "Praia de Jatiúca"]
+  },
+  "SE": {
+    "descricao": "Sergipe é o menor estado do Nordeste, com forte tradição cultural e belas praias.",
+    "festas": ["Festa de São João", "Festa de Nossa Senhora da Glória", "Carnaval de Aracaju"],
+    "culinaria": ["Peixada Sergipana", "Churrasco de peixe", "Tapioca recheada"],
+    "lendas": ["Mula sem cabeça", "Lenda do Cangaceiro"],
+    "arte": ["Artesanato em cerâmica", "Tecelagem de cestos", "Cestaria"],
+    "pontos": ["Cânion do Xingó", "Praia de Atalaia", "Centro de Aracaju"]
+  },
+  "MA": {
+    "descricao": "Maranhão é conhecido pelos lençóis maranhenses, cultura rica e sua capital São Luís.",
+    "festas": ["Festival de São João", "Carnaval de São Luís", "Festa de Santa Efigênia"],
+    "culinaria": ["Arroz de cuxá", "Peixe frito", "Tucupi com farinha"],
+    "lendas": ["Boto cor-de-rosa", "Lenda do Cacique de Guajará"],
+    "arte": ["Samba de roda", "Artesanato de Renda de Bilro", "Cultura maranhense"],
+    "pontos": ["Lençóis Maranhenses", "Centro Histórico de São Luís", "Delta do Parnaíba"]
+  },
+  "PB": {
+    "descricao": "Paraíba destaca-se por suas praias, história e cultura popular.",
+    "festas": ["Festa de São João", "Carnaval de João Pessoa", "Festa de Nossa Senhora das Neves"],
+    "culinaria": ["Carne de sol", "Cuscuz de milho", "Peixe frito"],
+    "lendas": ["Lenda do Coisa Fina", "Lenda do Bicho de Pêlo"],
+    "arte": ["Artesanato em renda", "Cerâmica de Bananeiras", "Arte popular"],
+    "pontos": ["Praia do Jacaré", "Centro Histórico de João Pessoa", "Cajazeiras"]
+  }
 }
 }
