@@ -58,5 +58,18 @@
     "relatedToEconomia": true,
     "body": "O grupo estava em meio a uma reunião de desenvolvimento de projetos quando um dos membros decidiu que era hora de trocadilhos. E assim, uma das melhorias mais criativas do projeto foi criada."
   }
-]
+],
+  "sports":{
+    "hero": {
+      "title": "Esportes no Nordeste e no Mundo",
+      "desc":  "Fique por dentro das últimas notícias esportivas, dos grandes eventos internacionais aos talentos locais que representam o orgulho do Agreste.",
+    },
+    "atletas": [
+      { "nome": "Lorem ipsum", "fotoUrl": null },
+      { "nome": "Lorem ipsum", "fotoUrl": null },
+      { "nome": "Lorem ipsum", "fotoUrl": null },
+      { "nome": "Lorem ipsum", "fotoUrl": null },
+      { "nome": "Lorem ipsum", "fotoUrl": null },
+    ]
+  }
 }
