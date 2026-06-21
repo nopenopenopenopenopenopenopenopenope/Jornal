@@ -72,7 +72,10 @@
       { "nome": "Lorem ipsum", "fotoUrl": null }
     ]
   },
-  "data":{
+  "data":Claro! Aqui está um objeto JSON com informações resumidas de todos os estados do Nordeste brasileiro, incluindo descrição, pontos turísticos, eventos e custos:
+
+```json
+{
   "PE": {
     "descricao": "Pernambuco combina litoral deslumbrante, sertão histórico e uma das culturas mais vibrantes do Brasil.",
     "pontos": ["Marco Zero", "Porto de Galinhas", "Fernando de Noronha", "Caruaru", "Olinda"],
@@ -115,6 +118,81 @@
       {
         "titulo": "Hospedagem",
         "descricao": "Pousadas em Jericoacoara variam de R$ 200 a R$ 700."
+      }
+    ]
+  },
+  "AL": {
+    "descricao": "Alagoas é famosa por suas praias paradisíacas e cultura vibrante.",
+    "pontos": ["Maragogi", "Maceió", "São Miguel dos Milagres", "Penedo", "Delmiro Gouveia"],
+    "eventos": ["Festa de São João", "Carnaval de Maceió", "Festa de Iemanjá"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos para Maceió de várias regiões custam de R$ 300 a R$ 800."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "Hotéis em Maceió variam de R$ 180 a R$ 500 por noite."
+      }
+    ]
+  },
+  "SE": {
+    "descricao": "Sergipe tem belas praias, festas tradicionais e uma cultura rica.",
+    "pontos": ["Aracaju", "São Cristóvão", "Pirambu", "Estância", "Canindé de São Francisco"],
+    "eventos": ["Festa de São João", "Cânion do Xingó", "Festa de Nossa Senhora da Glória"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos para Aracaju saindo de São Paulo custam em média R$ 400 a R$ 900."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "Hotéis em Aracaju variam de R$ 150 a R$ 400 por noite."
+      }
+    ]
+  },
+  "MA": {
+    "descricao": "Maranhão oferece praias, o centro histórico de São Luís e os lençóis maranhenses.",
+    "pontos": ["Lençóis Maranhenses", "São Luís", "Delta do Parnaíba", "Parque Nacional dos Lençóis", "Barreirinhas"],
+    "eventos": ["Festival de São João", "Festa de Santa Efigênia", "Carnaval de São Luís"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos para São Luís de várias regiões custam em média R$ 600 a R$ 1.200."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "Hotéis em São Luís variam de R$ 150 a R$ 400 por noite."
+      }
+    ]
+  },
+  "PB": {
+    "descricao": "Paraíba tem praias, cidades históricas e uma cultura vibrante.",
+    "pontos": ["João Pessoa", "Campina Grande", "Praia do Jacaré", "Cabedelo", "Cajazeiras"],
+    "eventos": ["Festa de São João", "Festival de Inverno em Campina", "Carnaval de João Pessoa"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos para João Pessoa de várias regiões custam cerca de R$ 400 a R$ 900."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "Hotéis em João Pessoa variam de R$ 150 a R$ 500 por noite."
+      }
+    ]
+  },
+  "PE": {
+    "descricao": "Pernambuco combina litoral deslumbrante, sertão histórico e uma das culturas mais vibrantes do Brasil.",
+    "pontos": ["Marco Zero", "Porto de Galinhas", "Fernando de Noronha", "Caruaru", "Olinda"],
+    "eventos": ["Carnaval do Recife", "Festa Junina de Caruaru", "Rock in Rio Recife", "Encontro de Culturas"],
+    "custos": [
+      {
+        "titulo": "Passagens aéreas",
+        "descricao": "Voos saindo de São Paulo para Recife custam em média R$ 600 a R$ 1.200 na alta temporada."
+      },
+      {
+        "titulo": "Hospedagem",
+        "descricao": "Hotéis em Recife variam de R$ 150 (pousadas) a R$ 600 por noite (hotéis 4 estrelas)."
       }
     ]
   }
