@@ -72,10 +72,7 @@
       { "nome": "Lorem ipsum", "fotoUrl": null }
     ]
   },
-  "data":Claro! Aqui está um objeto JSON com informações resumidas de todos os estados do Nordeste brasileiro, incluindo descrição, pontos turísticos, eventos e custos:
-
-```json
-{
+  "data":{
   "PE": {
     "descricao": "Pernambuco combina litoral deslumbrante, sertão histórico e uma das culturas mais vibrantes do Brasil.",
     "pontos": ["Marco Zero", "Porto de Galinhas", "Fernando de Noronha", "Caruaru", "Olinda"],
