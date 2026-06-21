@@ -273,5 +273,36 @@
     "titulo": "Título Tirinha",
     "paineis": [null, null, null]
   }
-]
+],
+  "videos":{
+  "hero": {
+    "title": "Lorem ipsum",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "secoes": [
+    {
+      "titulo": "Entrevista",
+      "videos": [
+        { "titulo": 1, "youtubeUrl": null },
+        { "titulo": 2, "youtubeUrl": null }
+      ]
+    },
+    {
+      "titulo": "Podcast",
+      "videos": [
+        { "titulo": "Lorem ipsum" },
+        { "titulo": "Lorem ipsum" },
+        { "titulo": "Lorem ipsum" }
+      ]
+    },
+    {
+      "titulo": "Jornal",
+      "videos": [
+        { "titulo": "Lorem ipsum" },
+        { "titulo": "Lorem ipsum" },
+        { "titulo": "Lorem ipsum" }
+      ]
+    }
+  ]
+}
 }
