@@ -1,0 +1,1447 @@
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-thumb { background: #FCC102; }
+::-webkit-scrollbar-thumb:hover { background: #A10808; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  position: fixed;
+  background: #FCC102;
+  display: flex;
+  height: 12%;
+  width: 100%;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+#logo { width: 5vw; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  width: min-content;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+}
+
+nav a {
+  text-decoration: none;
+  color: #A10808;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+nav a.current {
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+.search {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 5.5%;
+  padding-bottom: 2%;
+}
+
+.page {
+  display: none;
+  padding: 20px;
+}
+
+.page.active { display: block; }
+
+footer {
+  position: fixed;
+  width: 100%;
+  background: #FCC102;
+  text-align: center;
+  padding: 15px;
+  bottom: 0;
+  font-size: 14px;
+  align-content: center;
+  height: 9%;
+}
+
+
+.hero {
+  background: #d9d9d9;
+  padding: 40px 28px 48px;
+  margin-bottom: 32px;
+}
+
+.hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 900;
+  line-height: 1.15;
+  max-width: 680px;
+  margin-bottom: 20px;
+  font-family: Georgia, serif;
+}
+
+.hero p {
+  font-size: 0.97rem;
+  line-height: 1.65;
+  max-width: 740px;
+  color: #333;
+}
+
+
+.block {
+  padding: 0 28px 32px;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #cc0000;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.carousel-track-container {
+  overflow: hidden;
+  flex: 1;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.35s ease;
+}
+
+.news-card {
+  flex: 0 0 calc(25% - 11px);
+  min-width: 180px;
+  background: #d9d9d9;
+  padding: 18px 14px 14px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.news-card:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+.news-card h3 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.25;
+  font-family: Georgia, serif;
+}
+
+.news-card p {
+  font-size: 0.83rem;
+  color: #444;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.news-card .date {
+  font-size: 0.74rem;
+  color: #777;
+}
+
+.carousel-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: #cc0000;
+  padding: 6px 2px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: opacity 0.18s;
+}
+
+.carousel-btn:disabled {
+  opacity: 0.22;
+  cursor: default;
+}
+
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding: 0 28px 32px;
+}
+
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 440px;
+}
+
+.cat-btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 18px 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  transition: opacity 0.17s, transform 0.17s;
+}
+
+.cat-btn:hover {
+  opacity: 0.86;
+  transform: scale(1.03);
+}
+
+.cat-cultura  { background: #cc2200; }
+.cat-turismo  { background: #226600; }
+.cat-esportes { background: #cc6600; }
+.cat-tirinhas { background: #0077bb; }
+.cat-videos   { background: #cc9900; }
+.cat-noticias { background: #1a3a7a; }
+
+
+.right-widgets {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.widget-box {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px 18px;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.widget-label {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #cc0000;
+}
+
+.widget-location {
+  font-size: 0.78rem;
+  color: #777;
+}
+
+.clima-body {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.clima-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.clima-temp {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.saiba-mais {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 0.83rem;
+  color: #cc0000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.saiba-mais:hover { text-decoration: underline; }
+
+.widget-box > p {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #333;
+}
+
+
+.featured-section {
+  padding: 0 28px 40px;
+}
+
+.featured-inner {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+.featured-img {
+  width: 200px;
+  min-height: 200px;
+  background: #d9d9d9;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.featured-content h2 {
+  font-size: 1.85rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+  line-height: 1.2;
+  font-family: Georgia, serif;
+}
+
+.featured-content p {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.featured-content .date {
+  font-size: 0.76rem;
+  color: #777;
+}
+
+
+.article-page {
+  padding: 32px 28px 48px;
+  align-items: center;
+}
+
+.article-title {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900;
+  color: #8b0000;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.article-excerpt {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.article-meta {
+  font-size: 0.88rem;
+  color: #222;
+  font-weight: 600;
+  line-height: 1.6;
+  padding-left: 4px;
+  margin-bottom: 28px;
+}
+
+.article-image-wrap {
+  margin-bottom: 32px;
+}
+
+.article-image {
+  width: 100%;
+  height: 380px;
+  background: #d9d9d9;
+  border-radius: 2px;
+}
+
+.article-caption {
+  display: block;
+  font-size: 0.78rem;
+  color: #777;
+  margin-top: 6px;
+  padding-left: 2px;
+}
+
+.article-body p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 700px) {
+  nav { display: none; }
+  .bottom-grid { grid-template-columns: 1fr; }
+  .news-card { flex: 0 0 calc(80% - 7px); }
+  .featured-inner { flex-direction: column; }
+  .featured-img { width: 100%; }
+  .categories-grid { max-width: 100%; }
+  .article-image { height: 220px; }
+}
+
+
+.article-section-title {
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #8b0000;
+  margin-bottom: 16px;
+}
+
+
+.article-references {
+  margin-top: 40px;
+  padding-top: 8px;
+}
+
+.references-list {
+  list-style: none;
+  padding: 0;
+}
+
+.references-list li {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #333;
+  padding-left: 4px;
+  margin-bottom: 4px;
+}
+
+
+.article-related {
+  margin-top: 40px;
+}
+
+.related-carousel-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.related-carousel-wrapper .carousel-track-container {
+  overflow: hidden;
+  flex: 1;
+}
+
+
+.article-comments {
+  margin-top: 48px;
+  padding-bottom: 40px;
+}
+
+.comment-input {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+  color: #333;
+  resize: vertical;
+  margin-bottom: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.comment-input:focus {
+  outline: none;
+  border-color: #8b0000;
+}
+
+.comment-submit {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: #d9d9d9;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #8b0000;
+  cursor: pointer;
+  transition: background 0.18s;
+  margin-bottom: 32px;
+}
+
+.comment-submit:hover {
+  background: #c8c8c8;
+}
+
+.comment-item {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+  align-items: flex-start;
+}
+
+.comment-avatar {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
+.comment-avatar svg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.comment-user {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #111;
+}
+
+.comment-time {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.comment-text {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.comment-like,
+.comment-reply {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: #555;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.15s;
+}
+
+.comment-like:hover,
+.comment-reply:hover {
+  color: #8b0000;
+}
+
+
+.news-card--link {
+  cursor: pointer;
+  transition: box-shadow 0.18s, transform 0.18s;
+}
+
+.news-card--link:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.13);
+  transform: translateY(-2px);
+}
+
+
+.sobre-page {
+  padding: 32px 28px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+
+.sobre-title {
+  font-family: Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 900;
+  color: #8b0000;
+  line-height: 1.1;
+  margin-top: 16px;
+}
+
+.sobre-title:first-child {
+  margin-top: 0;
+}
+
+.sobre-text {
+  font-size: 1rem;
+  line-height: 1.72;
+  color: #222;
+}
+
+.sobre-img-full {
+  width: 100%;
+  height: 300px;
+  background: #d9d9d9;
+  border-radius: 2px;
+}
+
+.sobre-objetivo {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.sobre-img-side {
+  width: 280px;
+  min-height: 220px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+  border-radius: 2px;
+}
+
+@media (max-width: 700px) {
+  .sobre-objetivo { flex-direction: column; }
+  .sobre-img-side { width: 100%; }
+  .sobre-img-full { height: 200px; }
+}
+
+
+.turismo-page {
+  padding: 28px 28px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.turismo-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 520px;
+  margin: 0 auto 20px;
+  width: 100%;
+}
+
+.turismo-search {
+  flex: 1;
+  padding: 12px 48px 12px 20px;
+  border: 2px solid #4caf8f;
+  border-radius: 999px;
+  font-size: 0.97rem;
+  color: #444;
+  outline: none;
+  background: #fff;
+}
+
+.turismo-search:focus {
+  border-color: #2e8b6e;
+}
+
+.turismo-search-btn {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.turismo-search-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.turismo-suggestions {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  list-style: none;
+  z-index: 50;
+  overflow: hidden;
+  display: none;
+}
+
+.turismo-suggestions.open { display: block; }
+
+.turismo-suggestions li {
+  padding: 10px 18px;
+  cursor: pointer;
+  font-size: 0.93rem;
+  color: #333;
+}
+
+.turismo-suggestions li:hover {
+  background: #f0faf6;
+  color: #2e8b6e;
+}
+
+.turismo-hero {
+  background: #d9d9d9;
+  border-radius: 4px;
+  padding: 28px 24px 32px;
+  margin-bottom: 16px;
+}
+
+.turismo-hero-title {
+  font-family: Georgia, serif;
+  font-size: clamp(1.6rem, 4vw, 2rem);
+  font-weight: 900;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.turismo-hero-desc {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: #444;
+}
+
+.turismo-block {
+  margin-bottom: 24px;
+}
+
+.turismo-grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.turismo-card {
+  background: #d9d9d9;
+  border-radius: 4px;
+  padding: 0;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+
+.turismo-card-label {
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  padding: 12px 14px;
+  color: #111;
+  line-height: 1.25;
+}
+
+.turismo-slideshow-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.turismo-slideshow {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.turismo-slide-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.turismo-slide {
+  flex: 0 0 100%;
+  aspect-ratio: 16 / 9;
+  background: #d9d9d9;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.turismo-slide-label {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  padding: 20px 24px;
+  color: #111;
+}
+
+.turismo-carousel-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.turismo-carousel-wrap .carousel-track-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.turismo-carousel-wrap .carousel-track {
+  display: flex;
+  gap: 14px;
+  transition: transform 0.35s ease;
+}
+
+.turismo-card3 {
+  flex: 0 0 calc(33.33% - 10px);
+  aspect-ratio: 3 / 4;
+  background: #d9d9d9;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.turismo-card3-label {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  padding: 12px 14px;
+  color: #111;
+}
+
+@media (max-width: 700px) {
+  .turismo-grid4 { grid-template-columns: repeat(2, 1fr); }
+  .turismo-card3 { flex: 0 0 calc(80% - 7px); }
+}
+
+
+.turismo-passagens-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.turismo-custos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.turismo-custo-card {
+  background: #f0f0f0;
+  border-radius: 6px;
+  padding: 20px 22px;
+}
+
+.turismo-custo-card h3 {
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.turismo-custo-card p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.turismo-side-widgets {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 700px) {
+  .turismo-passagens-grid { grid-template-columns: 1fr; }
+}
+
+
+img.sobre-img-full {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+  background: #d9d9d9;
+}
+
+img.sobre-img-side {
+  width: 280px;
+  min-height: 220px;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+  background: #d9d9d9;
+  flex-shrink: 0;
+}
+
+.turismo-card-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #d9d9d9;
+}
+
+.turismo-slide-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #d9d9d9;
+}
+
+.turismo-slide { position: relative; }
+
+.turismo-card3 { position: relative; }
+
+.turismo-card3-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #d9d9d9;
+}
+
+.turismo-card-label,
+.turismo-slide-label,
+.turismo-card3-label {
+  position: relative;
+  z-index: 1;
+}
+
+img[data-placeholder]:not([src]),
+img[data-placeholder][src=""] {
+  background: #d9d9d9;
+  color: transparent;
+  font-size: 0;
+}
+
+@media (max-width: 700px) {
+  img.sobre-img-side {
+    width: 100%;
+  }
+  img.sobre-img-full {
+    height: 200px;
+  }
+}
+
+
+.esportes-page {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.esportes-page .hero {
+  margin-bottom: 8px;
+}
+
+.esportes-block {
+  padding: 0 0 24px;
+}
+
+.atletas-track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+}
+
+.atletas-track::-webkit-scrollbar { display: none; }
+
+.atleta-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 120px;
+  text-align: center;
+}
+
+.atleta-avatar {
+  width: 120px;
+  height: 120px;
+  background: #d9d9d9;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.atleta-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #d9d9d9;
+}
+
+.atleta-avatar svg {
+  width: 70%;
+  height: 70%;
+  fill: #888;
+}
+
+.atleta-nome {
+  font-size: 0.88rem;
+  color: #222;
+  line-height: 1.3;
+}
+
+
+.tirinhas-page {
+  padding: 28px 0 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tirinhas-page .turismo-search-wrap {
+  margin: 0 28px 8px;
+}
+
+.tirinha-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tirinha-titulo {
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #8b0000;
+  padding: 0 28px;
+}
+
+.tirinha-strip {
+  background: #d9d9d9;
+  padding: 16px 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.tirinha-panel {
+  background: #fff;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.tirinha-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  background: #fff;
+}
+
+.tirinhas-empty {
+  padding: 40px 28px;
+  font-size: 1rem;
+  color: #888;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .tirinha-strip {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.turismo-search-wrap {
+  align-self: center;
+}
+
+
+.videos-page {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.videos-page .hero {
+  margin-bottom: 8px;
+}
+
+.videos-block {
+  padding: 0 0 28px;
+}
+
+.videos-carousel-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.videos-carousel-wrap .carousel-track-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.videos-carousel-wrap .carousel-track {
+  display: flex;
+  gap: 16px;
+  transition: transform 0.35s ease;
+}
+
+.video-card {
+  flex: 0 0 calc(33.33% - 11px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.video-embed-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #d9d9d9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.video-iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+}
+
+.video-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d9d9d9;
+}
+
+.video-play-icon {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 0 18px 30px;
+  border-color: transparent transparent transparent #777;
+  margin-left: 6px;
+}
+
+.video-title {
+  font-size: 1rem;
+  color: #111;
+  line-height: 1.3;
+}
+
+@media (max-width: 700px) {
+  .video-card { flex: 0 0 calc(80% - 8px); }
+}
+
+
+.clima-page {
+  padding: 28px 28px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.clima-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.clima-hoje {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8b0000;
+}
+
+.clima-cidade {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.clima-main-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.clima-current {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 220px;
+}
+
+.clima-current-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.clima-big-icon {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.clima-big-temp {
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: Georgia, serif;
+  color: #111;
+}
+
+.clima-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.clima-hourly-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+}
+
+.clima-hourly-track-container {
+  overflow: hidden;
+  flex: 1;
+}
+
+.clima-hourly-track {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.35s ease;
+}
+
+.clima-hour-card {
+  flex: 0 0 calc(33.33% - 7px);
+  background: #c5d8d4;
+  border-radius: 12px;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 80px;
+}
+
+.clima-hour-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2e6b5e;
+}
+
+.clima-hour-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.clima-hour-temps {
+  font-size: 0.82rem;
+  color: #333;
+  text-align: center;
+}
+
+.clima-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.clima-day-card {
+  background: #c5d8d4;
+  border-radius: 12px;
+  padding: 14px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.clima-day-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2e6b5e;
+}
+
+.clima-day-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.clima-day-temps {
+  font-size: 0.78rem;
+  color: #333;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .clima-week { grid-template-columns: repeat(4, 1fr); }
+  .clima-main-row { flex-direction: column; }
+  .clima-hourly-wrap { width: 100%; }
+}
+
+
+.economia-page {
+  padding: 28px 28px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cotacoes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.cotacao-card {
+  background: #c5d8d4;
+  border-radius: 14px;
+  padding: 18px 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cotacao-nome {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #2e6b5e;
+}
+
+.cotacao-valor {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #111;
+  line-height: 1.1;
+}
+
+.cotacao-var {
+  font-size: 0.8rem;
+  color: #444;
+}
+
+.cotacao-var.positivo { color: #2e6b5e; }
+.cotacao-var.negativo { color: #a10808; }
+
+.economia-page .hero {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .cotacoes-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+.clima-big-fa {
+  font-size: 5rem;
+  color: #2e6b5e;
+  line-height: 1;
+}
+
+.clima-fa-icon {
+  font-size: 1.8rem;
+  color: #2e6b5e;
+}
+
+.clima-big-icon {
+  line-height: 1;
+}
+
+.clima-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+}
+
+.clima-widget-icon {
+  font-size: 3rem;
+  color: #2e6b5e;
+  line-height: 1;
+}
+
+.clima-icon {
+  font-size: 3rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+#homeEconWidget {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.econ-widget-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.85rem;
+  padding: 4px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.econ-widget-row:last-child {
+  border-bottom: none;
+}
+
+.econ-widget-nome {
+  color: #555;
+  font-weight: 600;
+}
+
+.econ-widget-valor {
+  font-weight: 700;
+  color: #111;
+}
+
+.econ-widget-var {
+  font-size: 0.75rem;
+}
+
+.econ-widget-var.positivo { color: #2e6b5e; }
+.econ-widget-var.negativo { color: #a10808; }
