@@ -6,15 +6,27 @@
     "excerpt": "Membro do grupo passa 90% do tempo rimando o nome dos colegas e apenas 10% tentando lembrar qual era o tema real do projeto.",
     "author": "Jeremy",
     "location": "Recife - PE",
-    "date": "2026-06-19",
+    "date": "19/06/2026",
     "dateShort": "Jun 19, 2026",
     "imageUrl": null,
     "caption": "Flagrante do integrante concentrado na criação de sua próxima rima infame durante a reunião.",
     "recente": true,
     "relatedToSports": false,
     "relatedToEconomia": true,
-    "featured" : true,
-    "body": "A tensão aumentava na sala de reuniões enquanto o prazo para entrega do projeto se aproximava. O grupo estava à beira de um colapso, mas de repente, um dos membros resolveu rimar o nome de todos os colegas e o projeto foi salvo."
+    "body": [
+      "A tensão aumentava na sala de reuniões enquanto o prazo de entrega se aproximava, mas um dos integrantes parecia completamente alheio ao pânico geral. Testemunhas afirmam que ele passou a maior parte da sessão focado em encontrar rimas complexas para os nomes de cada um dos presentes.",
+      "O comportamento, que começou como uma tentativa de quebrar o gelo, logo se tornou a principal atividade do indivíduo. Enquanto os outros discutiam a divisão de tarefas, ele desviava o foco com trocadilhos infames, gastando cerca de 90% do tempo total do encontro apenas aperfeiçoando suas piadas filológicas.",
+      "No final da dinâmica, ao ser questionado sobre a sua parte no desenvolvimento, o integrante encarou o grupo em silêncio. Fontes confirmam que ele utilizou os 10% restantes do tempo tentando puxar pela memória qual era, afinal, o tema do projeto que deveriam entregar."
+    ],
+    "references": [
+      "SILVA, J. Rimas em ambiente corporativo. Jornal Agreste, 2026. Disponível em: <link>. Acesso em: 19 jun. 2026.",
+      "SANTOS, M. A arte do trocadilho inoportuno. Recife Press, 2025. Disponível em: <link>. Acesso em: 19 jun. 2026."
+    ],
+    "relatedIds": [2, 3, 4, 5],
+    "comments": [
+      { "user": "User_123", "time": "Há 2 horas", "likes": 12, "text": "Esse cara é um gênio. O projeto entregou, a rima também." },
+      { "user": "User_321", "time": "Há 3 horas", "likes": 87, "text": "Fui à reunião, confirmo. Ele rimou meu nome com 'abacate'." }
+    ]
   },
   {
     "id": 2,
