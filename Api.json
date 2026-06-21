@@ -251,5 +251,27 @@
     "arte": ["Artesanato em renda", "Cerâmica de Bananeiras", "Arte popular"],
     "pontos": ["Praia do Jacaré", "Centro Histórico de João Pessoa", "Cajazeiras"]
   }
-}
+},
+ "tirinhas":[
+  {
+    "id": 1,
+    "titulo": "Títolo Tirinha",
+    "paineis": [null, null, null]
+  },
+  {
+    "id": 2,
+    "titulo": "Título Tirinha",
+    "paineis": [null, null, null]
+  },
+  {
+    "id": 3,
+    "titulo": "Título Tirinha",
+    "paineis": [null, null, null]
+  },
+  {
+    "id": 4,
+    "titulo": "Título Tirinha",
+    "paineis": [null, null, null]
+  }
+]
 }
