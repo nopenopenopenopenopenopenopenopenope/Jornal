@@ -58,7 +58,7 @@ climaSearchInput.addEventListener("keydown", (e) => {
 });
 
 async function selectCity(city) {
-  console.log(city)
+  
   climaSearchInput.value = city;
   climaSuggestions.classList.remove("open");
   const data = await fetchWeather(city);
@@ -119,7 +119,7 @@ function renderClima(data) {
 
   const week = document.getElementById("climaWeek");
   week.innerHTML = "";
-  console.log(d)
+  
   d.forecast.forEach(f => {
     const card = document.createElement("div");
     card.className = "clima-day-card";
