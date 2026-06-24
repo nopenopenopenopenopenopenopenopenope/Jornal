@@ -2,31 +2,40 @@
   "news":[
   {
     "id": 1,
-    "title": "O Trocadilho Humano",
-    "excerpt": "Membro do grupo passa 90% do tempo rimando o nome dos colegas e apenas 10% tentando lembrar qual era o tema real do projeto.",
-    "author": "Jeremy",
-    "location": "Recife - PE",
-    "date": "19/06/2026",
-    "dateShort": "Jun 19, 2026",
+    "title": "Literatura: Livros para conhecer a Região Nordeste do Brasil - Recomendações do prof. Dr. Luís Fernando",
+    "excerpt": "Conheça o nordeste brasileiro a partir das obras Iracema, Os Sertões, O Quize, O Guarani, e Vidas Secas.",
+    "author": "Lucas Paulino Ramos",
+    "location": "Natal - RN",
+    "date": "24/06/2026",
+    "dateShort": "24 jun. 2026",
     "imageUrl": null,
-    "caption": "Flagrante do integrante concentrado na criação de sua próxima rima infame durante a reunião.",
+    "caption": "Os principais livros que retratam a região nordeste.",
     "recente": true,
     "relatedToSports": false,
-    "relatedToEconomia": true,
+    "relatedToEconomia": false,
     "body": [
-      "A tensão aumentava na sala de reuniões enquanto o prazo de entrega se aproximava, mas um dos integrantes parecia completamente alheio ao pânico geral. Testemunhas afirmam que ele passou a maior parte da sessão focado em encontrar rimas complexas para os nomes de cada um dos presentes.",
-      "O comportamento, que começou como uma tentativa de quebrar o gelo, logo se tornou a principal atividade do indivíduo. Enquanto os outros discutiam a divisão de tarefas, ele desviava o foco com trocadilhos infames, gastando cerca de 90% do tempo total do encontro apenas aperfeiçoando suas piadas filológicas.",
-      "No final da dinâmica, ao ser questionado sobre a sua parte no desenvolvimento, o integrante encarou o grupo em silêncio. Fontes confirmam que ele utilizou os 10% restantes do tempo tentando puxar pela memória qual era, afinal, o tema do projeto que deveriam entregar."
+      "Em podcast gravado com a equipe do jornal Agreste, o prof. Dr. Luís Fernando recomendou livros para quem quiser conhecer a região nordeste, além de citar outras obras que também merecem menção honrosa, como telenovelas.",
+      "Livros citados no podcast:",
+      "- Iracema, a virgem dos lábios de mel (José de Alencar).",
+      "O romance 'Iracema' retrata a história de amor da índia Iracema e um europeu, Martin Soares Moreno. Faz parte da chamada 'geração indigenista-nacionalista' (Diana, c2011-2026).",
+      "- Os Sertões (Euclides da Cunha).",
+      "Do escritor pré-modernista Euclides da Cunha, a obra narra a guerra de canudos acontecida na Bahia entre 1896 e 1897 (Diana, c2011-2026).",
+      "- O Quinze (Rachel de Queiroz)",
+      "A obra 'O Quinze' da escritora Rachel de Queiroz retrata a seca de 1915 que atingiu a região nordeste. Rachel de Queiroz foi ainda a primeira mulher integrante da Academia Brasileira de Letras (ABL).",
+      "- Vidas Secas (Graciliano Ramos)",
+      "A obra 'Vidas Secas' retrata uma família nordestina que atravessavam o sertão fugindo da seca e da miséria (Diana, c2011-2026).",
+      "- O Guarani (José de Alencar)",
+      "Publicado durante a primeira fase do romantismo no Brasil, a obra se passa no século XVII no interior do Rio de Janeiro. Embora não seja uma obra que se passe no nordeste, é de autoria do cearense José de Alencar."
     ],
     "references": [
-      "SILVA, J. Rimas em ambiente corporativo. Jornal Agreste, 2026. Disponível em: <link>. Acesso em: 19 jun. 2026.",
-      "SANTOS, M. A arte do trocadilho inoportuno. Recife Press, 2025. Disponível em: <link>. Acesso em: 19 jun. 2026."
+      "DIANA, Daniela. Iracema. Toda Matéria, c2011-2026. Disponível em: https://www.todamateria.com.br/iracema/. Acesso em: 24 jun. 2026.",
+      "DIANA, Daniela. Os Sertões, de Euclides da Cunha. Toda Matéria, c2011-2026. Disponível em: https://www.todamateria.com.br/os-sertoes-de-euclides-da-cunha/. Acesso em: 24 jun. 2026.",
+      "DIANA, Daniela. Vidas Secas de Graciliano Ramos. Toda Matéria, c2011-2026. Disponível em: https://www.todamateria.com.br/vidas-secas-de-graciliano-ramos/. Acesso em: 24 jun. 2026.",
+      "FERNANDES, Márcia. O Quinze. Toda Matéria, c2011-2026. Disponível em: https://www.todamateria.com.br/o-quinze/. Acesso em: 24 jun. 2026.",
+      "DIANA, Daniela. O Guarani. Toda Matéria, c2011-2026. Disponível em: https://www.todamateria.com.br/o-guarani/. Acesso em: 24 jun. 2026."
     ],
-    "relatedIds": [2, 3, 4, 5],
-    "comments": [
-      { "user": "User_123", "time": "Há 2 horas", "likes": 12, "text": "Esse cara é um gênio. O projeto entregou, a rima também." },
-      { "user": "User_321", "time": "Há 3 horas", "likes": 87, "text": "Fui à reunião, confirmo. Ele rimou meu nome com 'abacate'." }
-    ]
+    "relatedIds": null,
+    "comments": null
   },
   {
     "id": 2,
