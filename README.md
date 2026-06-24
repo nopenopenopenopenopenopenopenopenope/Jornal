@@ -23,12 +23,15 @@ A logo consiste em uma combination mark, pois une textos com símbolos, no caso 
 # Paleta de Cores
 
 A paleta de cores utiliza uma combinação tríade e possui as cores, verde, vermelho e amarelo:
+
 <img width="222" height="222" alt="Group 41" src="https://github.com/user-attachments/assets/a7b8d015-177c-4e89-b86a-54dfa248be2c" />
 
 A cor amarela representa luz, calor, descontração, otimismo e alegria, trazendo o sol, o clima e a energia da região.
+
 <img width="222" height="222" alt="Group 42" src="https://github.com/user-attachments/assets/d40d4794-bc95-4e0e-9bc7-003789c92fd4" />
 
 A cor vermelha representa poder, paixão e energia, se referindo principalmente a arvore pau-brasil, a qual deu o nome do nosso país.
+
 <img width="222" height="222" alt="Group 43" src="https://github.com/user-attachments/assets/50458bf9-6dcd-414b-ac12-60a268ad9887" />
 
 
