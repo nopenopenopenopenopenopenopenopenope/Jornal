@@ -73,18 +73,88 @@
   },
   {
     "id": 3,
-    "title": "O Próximo Trocadilho",
-    "excerpt": "Membro do grupo passa 90% do tempo rimando o nome dos colegas e apenas 10% tentando lembrar qual era o tema real do projeto.",
-    "author": "Maria",
-    "location": "Rio de Janeiro - RJ",
-    "date": "2026-06-20",
-    "dateShort": "Jun 20, 2026",
+    "title": "Política e futebol... se misturam? Conheca o presidente Café Filho, potiguar e goleiro.",
+    "excerpt": "Café Filho foi presidente da república e fundador do Alecrim Futebol Clube, do Rio Grande do Norte.",
+    "author": "Lucas Paulino Ramos",
+    "location": "Natal - RN",
+    "date": "24/06/2026",
+    "dateShort": "24 jun. 2026",
     "imageUrl": "https://example.com/imagem2.jpg",
-    "caption": "Flagrante do integrante concentrado na criação de sua próxima rima infame durante a reunião.",
+    "caption": "Presidente Café Filho.",
+    "recente": true,
+    "relatedToSports": true,
+    "relatedToEconomia": false,
+    "body": [
+      "O 18º Presidente da República, João Fernandes Campos Café Filho, chegou à presidência após o suícidio do então presidente Getúlio Vargas, do qual era vice-presidente.",
+      "Café Filho, como era (e ainda é) conhecido, nasceu em Natal, capital do estado nordestino Rio Grande do Norte, em 3 de fevereiro de 1899 (Santiago, 2020)",
+      "Dotado por uma paixão pelo futebol, Café Filho é um dos fundadores do Alecrim Futebol Clube em 1916, do qual chegou a ser goleiro. Em 1918 o clube se fundiu com o local Flamengo Futebol Clube, dando origem ao Centro Sportivo Natalense (Santiago, 2020).",
+      "Café Filho foi ainda jornalista, sendo fundador do Jornal do Norte, advogado e participante da revolução de 1930. Foi eleito deputado federal em 1934, 1945 e em 1950 compôs chapa com Getúlio Vargas, sendo eleito para a vice-presidência (na época, votava-se separadamente para presidente e vice) (Santiago, 2020)."
+    ],
+    "references": [
+       "SANTIAGO, José Renato. Café Filho, o goleiro que chegou à Presidência da República. Aventuras na História, 1 ago. 2026. Disponível em: https://aventurasnahistoria.com.br/noticias/personagem/dos-campos-ao-palacio.phtml. Acesso em: 24 jun. 2026."
+    ],
+    "relatedIds": 4,
+    "comments": null
+  },
+  {
+    "id": 4,
+    "title": "Os presidentes nordestinos da república.",
+    "excerpt": "Conheça os nordestinos que chegaram ao maior posto político da República Federativa do Brasil (ou equivalente à sua época).",
+    "author": "Lucas Paulino Ramos",
+    "location": "Natal - RN",
+    "date": "24/06/2026",
+    "dateShort": "24 jun. 2026",
+    "imageUrl": "https://example.com/imagem2.jpg",
+    "caption": "Presidentes nordestinos",
     "recente": true,
     "relatedToSports": false,
-    "relatedToEconomia": true,
-    "body": "O grupo estava em meio a uma reunião de desenvolvimento de projetos quando um dos membros decidiu que era hora de trocadilhos. E assim, uma das melhorias mais criativas do projeto foi criada."
+    "relatedToEconomia": false,
+    "body": [
+      "Ao todo, 8 presidentes nasceram na região nordeste, com um deles sendo registrado na região, mas nascido em alto mar, Itamar Franco.",
+      "Confira a lista de presidentes nascidos na região nordeste:",
+      "1 - Marechal Deodoro da Fonseca - Alagoano",
+      "2 - Floriano Vieira Peixoto - Alagoano",
+      "3 - Epitácio Pessoa - Paraibano",
+      "4 - José Linhares - Cearense",
+      "5 - João Fernando Campos Café Filho - Potiguar",
+      "6 - Humberto de Alencar Castello Branco - Cearense",
+      "7 - José Sarney - Maranhense",
+      "8 - Luiz Inácio Lula da Silva - Pernambucano",
+      "Principal referência: (Gallo, 2018)."
+    ],
+    "references": [
+       "GALLO, Rodrigo. De que estado vieram mais presidentes do Brasil?. Aventuras na História, 5 out. 2018. Disponível em: https://aventurasnahistoria.com.br/noticias/historia-hoje/onde-nasceram-presidentes-brasil.phtml. Acesso em: 24 jun. 2026."
+    ],
+    "relatedIds": 3,
+    "comments": null
+  },
+{
+    "id": 5,
+    "title": "Fé católica, cultura e tradição: a festa de São João Batista e sua relevância no nordeste brasileiro.",
+    "excerpt": "A cidade de Campina Grande-PB tem a maior festa de São João do mundo.",
+    "author": "Lucas Paulino Ramos",
+    "location": "Natal - RN",
+    "date": "24/06/2026",
+    "dateShort": "24 jun. 2026",
+    "imageUrl": "https://example.com/imagem2.jpg",
+    "caption": "A festa de São João.",
+    "recente": true,
+    "relatedToSports": false,
+    "relatedToEconomia": false,
+    "body": [
+      "As festas juninas giram em torno da devoção popular à Santo Antônio, São João, São Pedro e São Paulo (Canção Nova, 2013).",
+      "A origem das festas juninas é portugesa, relacionada ao calendário litúrgico da igreja que celebra esses santos no mês de junho (Canção Nova, 2013).",
+      "Originalmente, como explica o padre Leandro dos Santos, pároco da Igreja Nossa Senhora D'Ajuda, a festa junina chamava-se festa joanina, em referência à São João (Aires, 2026).",
+      "Com a adição de mais santos à celebração, o nome mudou, mas a festa ainda possuí muita ligação à São João, explicou o padre (Aires, 2026).",
+      "O padre ainda conta que a famosa tradição da fogueira está relacionada com a tradição de que Santa Isabel acendeu uma fogueira para avisar a Santíssima Virgem Maria, sua prima, do nascimento de São João Batista, o último profeta a anunciar o Messias (Aires, 2026).",
+      "São João Batista também batizou o Salvador, Jesus Cristo, seu primo."
+    ],
+    "references": [
+       "Festas juninas brasileiras: conheça a origem e sua religiosidade. Canção Nova, 13 jun. 2013. Disponível em: https://noticias.cancaonova.com/brasil/festas-juninas-brasileiras-conheca-a-origem-e-sua-religiosidade/. Acesso em: 24 jun. 2026.",
+       "AIRES, Alice. Fogueira, tradição e fé: saiba como São João Batista deu origem às festas juninas. G1, 24 jun. 2026. Disponível em: https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/06/24/fogueira-tradicao-e-fe-saiba-como-sao-joao-batista-deu-origem-as-festas-juninas.ghtml. Acesso em: 24 jun. 2026."
+    ],
+    "relatedIds": null,
+    "comments": null
   }
 ],
   "sports":{
