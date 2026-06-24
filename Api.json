@@ -163,11 +163,11 @@
       "desc":  "Fique por dentro das últimas notícias esportivas, dos grandes eventos internacionais aos talentos locais que representam o orgulho do Agreste."
     },
     "atletas": [
-      { "nome": "Lorem ipsum", "fotoUrl": null },
-      { "nome": "Lorem ipsum", "fotoUrl": null },
-      { "nome": "Lorem ipsum", "fotoUrl": null },
-      { "nome": "Lorem ipsum", "fotoUrl": null },
-      { "nome": "Lorem ipsum", "fotoUrl": null }
+      { "nome": "Matheus Cunha - Paraíbano", "fotoUrl": null },
+      { "nome": "Douglas Santos - Paraíbano", "fotoUrl": null },
+      { "nome": "Bremer - Baiano", "fotoUrl": null },
+      { "nome": "Danilo Santos - Baiano", "fotoUrl": null },
+      { "nome": "Wesley - Maranhense", "fotoUrl": null }
     ]
   },
   "data":{
@@ -388,9 +388,7 @@
     {
       "titulo": "Podcast",
       "videos": [
-        { "titulo": "Lorem ipsum" },
-        { "titulo": "Lorem ipsum" },
-        { "titulo": "Lorem ipsum" }
+        { "titulo": "Podcast com o prof. Dr. Luís Fernando." }
       ]
     },
     {
