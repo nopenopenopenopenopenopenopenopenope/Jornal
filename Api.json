@@ -8,7 +8,7 @@
     "location": "Natal - RN",
     "date": "24/06/2026",
     "dateShort": "24 jun. 2026",
-    "imageUrl": null,
+    "imageUrl": "../Fotos/imagemNoticia1.webp",
     "caption": "Os principais livros que retratam a região nordeste.",
     "recente": true,
     "relatedToSports": false,
@@ -45,7 +45,7 @@
     "location": "Natal - RN",
     "date": "24/06/2026",
     "dateShort": "24 jun. 2026",
-    "imageUrl": null,
+    "imageUrl": "../Fotos/imagemNoticia2.jpg",
     "caption": "",
     "recente": true,
     "relatedToSports": false,
@@ -79,7 +79,7 @@
     "location": "Natal - RN",
     "date": "24/06/2026",
     "dateShort": "24 jun. 2026",
-    "imageUrl": "https://example.com/imagem2.jpg",
+    "imageUrl": "../Fotos/imagemNoticia3.jpg",
     "caption": "Presidente Café Filho.",
     "recente": true,
     "relatedToSports": true,
@@ -104,7 +104,7 @@
     "location": "Natal - RN",
     "date": "24/06/2026",
     "dateShort": "24 jun. 2026",
-    "imageUrl": "https://example.com/imagem2.jpg",
+    "imageUrl": "../Fotos/imagemNoticia4.jpg",
     "caption": "Presidentes nordestinos",
     "recente": true,
     "relatedToSports": false,
@@ -136,7 +136,7 @@
     "location": "Natal - RN",
     "date": "24/06/2026",
     "dateShort": "24 jun. 2026",
-    "imageUrl": "https://example.com/imagem2.jpg",
+    "imageUrl": "../Fotos/imagemNoticia5.png",
     "caption": "A festa de São João.",
     "recente": true,
     "relatedToSports": false,
@@ -163,11 +163,11 @@
       "desc":  "Fique por dentro das últimas notícias esportivas, dos grandes eventos internacionais aos talentos locais que representam o orgulho do Agreste."
     },
     "atletas": [
-      { "nome": "Matheus Cunha - Paraíbano", "fotoUrl": null },
-      { "nome": "Douglas Santos - Paraíbano", "fotoUrl": null },
-      { "nome": "Bremer - Baiano", "fotoUrl": null },
-      { "nome": "Danilo Santos - Baiano", "fotoUrl": null },
-      { "nome": "Wesley - Maranhense", "fotoUrl": null }
+      { "nome": "Matheus Cunha - Paraíbano", "fotoUrl": "../Fotos/jogador1Jornal.webp" },
+      { "nome": "Douglas Santos - Paraíbano", "fotoUrl": "../Fotos/jogador2Jornal.jpg" },
+      { "nome": "Bremer - Baiano", "fotoUrl": "../Fotos/jogador3Jornal.jpg" },
+      { "nome": "Danilo Santos - Baiano", "fotoUrl": "../´Fotos/jogador4Jornak.webp" },
+      { "nome": "Wesley - Maranhense", "fotoUrl": "../Fotos/jogador5Jornal.webp" }
     ]
   },
   "data":{
