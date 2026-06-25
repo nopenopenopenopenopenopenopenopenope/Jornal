@@ -390,14 +390,6 @@
         { "titulo": "Podcast com o prof. Dr. Luís Fernando." }
       ]
     },
-    {
-      "titulo": "Jornal",
-      "videos": [
-        { "titulo": "Lorem ipsum" },
-        { "titulo": "Lorem ipsum" },
-        { "titulo": "Lorem ipsum" }
-      ]
-    }
   ]
 }
 }
