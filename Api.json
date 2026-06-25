@@ -374,20 +374,14 @@
 ],
   "videos":{
   "hero": {
-    "title": "Lorem ipsum",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "title": "Videos",
+    "desc": "Aqui estão os videos do Jornal Agreste."
   },
   "secoes": [
     {
       "titulo": "Entrevista",
       "videos": [
         { "titulo": "Podcast com o prof. Dr. Luís Fernando.", "youtubeUrl": "https://youtu.be/9robmjrKXl0" }
-      ]
-    },
-    {
-      "titulo": "Podcast",
-      "videos": [
-        { "titulo": "Podcast com o prof. Dr. Luís Fernando." }
       ]
     }
   ]
