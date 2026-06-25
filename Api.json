@@ -163,7 +163,7 @@
       "desc":  "Fique por dentro das últimas notícias esportivas, dos grandes eventos internacionais aos talentos locais que representam o orgulho do Agreste."
     },
     "atletas": [
-      { "nome": "Matheus Cunha - Paraíbano", "fotoUrl": "../Fotos/jogador1Jornal.webp" },
+      { "nome": "Matheus Cunha - Paraíbano", "fotoUrl": "https://github.com/nopenopenopenopenopenopenopenopenope/Jornal/blob/main/Fotos/jogador1Jornal.webp?raw=true" },
       { "nome": "Douglas Santos - Paraíbano", "fotoUrl": "../Fotos/jogador2Jornal.jpg" },
       { "nome": "Bremer - Baiano", "fotoUrl": "../Fotos/jogador3Jornal.jpg" },
       { "nome": "Danilo Santos - Baiano", "fotoUrl": "../´Fotos/jogador4Jornak.webp" },
