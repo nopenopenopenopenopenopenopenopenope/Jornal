@@ -34,8 +34,8 @@
       "FERNANDES, Márcia. O Quinze. Toda Matéria, c2011-2026. Disponível em: https://www.todamateria.com.br/o-quinze/. Acesso em: 24 jun. 2026.",
       "DIANA, Daniela. O Guarani. Toda Matéria, c2011-2026. Disponível em: https://www.todamateria.com.br/o-guarani/. Acesso em: 24 jun. 2026."
     ],
-    "relatedIds": null,
-    "comments": null
+    "relatedIds": [],
+    "comments": []
   },
   {
     "id": 2,
@@ -68,8 +68,8 @@
     "references": [
        "DAL BELLO, Júlia; MARGUTTI, Laura; TCHIAN, Joana. As 10 cidades mais ricas do Nordeste. Investindo por aí, 13 jan. 2026. Disponível em: https://investindoporai.com.br/as-10-cidades-mais-ricas-do-nordeste/. Acesso em: 24 jun. 2026."
     ],
-    "relatedIds": null,
-    "comments": null
+    "relatedIds": [],
+    "comments": []
   },
   {
     "id": 3,
@@ -93,8 +93,8 @@
     "references": [
        "SANTIAGO, José Renato. Café Filho, o goleiro que chegou à Presidência da República. Aventuras na História, 1 ago. 2026. Disponível em: https://aventurasnahistoria.com.br/noticias/personagem/dos-campos-ao-palacio.phtml. Acesso em: 24 jun. 2026."
     ],
-    "relatedIds": 4,
-    "comments": null
+    "relatedIds": [4],
+    "comments": []
   },
   {
     "id": 4,
@@ -126,7 +126,7 @@
        "GALLO, Rodrigo. De que estado vieram mais presidentes do Brasil?. Aventuras na História, 5 out. 2018. Disponível em: https://aventurasnahistoria.com.br/noticias/historia-hoje/onde-nasceram-presidentes-brasil.phtml. Acesso em: 24 jun. 2026."
     ],
     "relatedIds": [3],
-    "comments": null
+    "comments": []
   },
 {
     "id": 5,
@@ -153,8 +153,8 @@
        "Festas juninas brasileiras: conheça a origem e sua religiosidade. Canção Nova, 13 jun. 2013. Disponível em: https://noticias.cancaonova.com/brasil/festas-juninas-brasileiras-conheca-a-origem-e-sua-religiosidade/. Acesso em: 24 jun. 2026.",
        "AIRES, Alice. Fogueira, tradição e fé: saiba como São João Batista deu origem às festas juninas. G1, 24 jun. 2026. Disponível em: https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/06/24/fogueira-tradicao-e-fe-saiba-como-sao-joao-batista-deu-origem-as-festas-juninas.ghtml. Acesso em: 24 jun. 2026."
     ],
-    "relatedIds": null,
-    "comments": null
+    "relatedIds": [],
+    "comments": []
   }
 ],
   "sports":{
