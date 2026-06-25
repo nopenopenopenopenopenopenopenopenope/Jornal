@@ -45,7 +45,7 @@
     "location": "Natal - RN",
     "date": "24/06/2026",
     "dateShort": "24 jun. 2026",
-    "imageUrl": "../Fotos/imagemNoticia2.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/nopenopenopenopenopenopenopenopenope/Jornal/refs/heads/main/Fotos/imagemNoticia2.jpg",
     "caption": "",
     "recente": true,
     "relatedToSports": false,
