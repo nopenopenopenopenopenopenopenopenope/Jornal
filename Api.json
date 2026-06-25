@@ -8,7 +8,7 @@
     "location": "Natal - RN",
     "date": "24/06/2026",
     "dateShort": "24 jun. 2026",
-    "imageUrl": "../Fotos/imagemNoticia1.webp",
+    "imageUrl": "https://raw.githubusercontent.com/nopenopenopenopenopenopenopenopenope/Jornal/refs/heads/main/Fotos/imagemNoticia1.webp",
     "caption": "Os principais livros que retratam a região nordeste.",
     "recente": true,
     "relatedToSports": false,
